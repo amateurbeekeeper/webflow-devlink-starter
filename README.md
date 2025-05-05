@@ -23,23 +23,12 @@ cd webflow-devlink-starter
 npm install
 ```
 
-3. Create a `.webflowrc.js` file in the root directory:
-```js
-module.exports = {
-    host: "https://api.webflow.com",
-    rootDir: "./devlink",
-    siteId: "YOUR_SITE_ID",
-    authToken: "YOUR_AUTH_TOKEN",
-    cssModules: false
-}
-```
-
-4. Run the development server:
+3. Run the development server:
 ```bash
 npm run dev
 ```
 
-5. Sync your Webflow components:
+4. Sync your Webflow components:
 ```bash
 npm run sync
 ```

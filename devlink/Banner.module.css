@@ -1,0 +1,139 @@
+.banner-announcement {
+  display: flex;
+  min-height: 56px;
+  padding: 16px 5%;
+  justify-content: center;
+  align-items: center;
+
+  background-color: var(--neutral900-684e28df);
+  background-image: url("https://cdn.prod.website-files.com/68191196d561397b05c207a5/68191197d561397b05c20932_Auth%20Background%20Pattern%20Left.svg");
+  background-position: 100% 50%;
+  background-size: auto;
+  background-repeat: no-repeat;
+
+  color: white;
+  text-align: center;
+}
+
+@media screen and (max-width: 767px) {
+  .banner-announcement {
+    background-image: none;
+    background-position: 0px 0px;
+    background-size: auto;
+    background-repeat: repeat;
+    text-align: left;
+  }
+}
+
+.banner-container {
+  position: relative;
+
+  display: flex;
+  width: 100%;
+  max-width: 1140px;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 991px) {
+  .banner-container {
+    justify-content: flex-start;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .banner-container {
+    grid-column-gap: 24px;
+  }
+}
+
+.banner-text-wrapper {
+  display: flex;
+  align-items: center;
+  grid-column-gap: 8px;
+}
+
+.paragraph-small {
+  margin-bottom: 0px;
+  font-size: 14px;
+  line-height: 1.6;
+  letter-spacing: -0.02em;
+}
+
+.paragraph-small.text-color-gray-500 {
+  color: var(--neutral500-ab57a8aa);
+}
+
+.text-color-gray-500 {
+  color: var(--neutral500-ab57a8aa);
+}
+
+.banner-button {
+  display: flex;
+  padding: 4px 8px;
+  justify-content: center;
+  align-items: center;
+
+  background-color: var(--violetBase-5c681326);
+
+  transition: color 300ms ease,background-color 300ms ease;
+
+  color: hsla(270, 0.00%, 100.00%, 1.00);
+  font-size: 12px;
+  line-height: 16px;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.banner-button:hover {
+  background-color: hsla(255, 0.00%, 100.00%, 1.00);
+  color: hsl(232, 90%, 64%);
+}
+
+@media screen and (max-width: 479px) {
+  .banner-button {
+    display: none;
+  }
+}
+
+.banner-button-small {
+  position: absolute;
+  left: auto;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+
+  display: flex;
+  width: 24px;
+  height: 24px;
+  padding: 4px;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 100%;
+
+  background-color: var(--neutral700-fe06ca39);
+
+  transition: color 200ms ease,background-color 200ms ease;
+
+  color: hsl(235, 8%, 72%);
+}
+
+.banner-button-small:hover {
+  background-color: hsla(231.00000000000003, 0.00%, 100.00%, 1.00);
+  color: hsl(0, 0%, 0%);
+}
+
+@media screen and (max-width: 767px) {
+  .banner-button-small {
+    position: static;
+  }
+}
+
+.icon-small {
+  display: flex;
+  width: 16px;
+  height: 16px;
+  justify-content: center;
+  align-items: center;
+}

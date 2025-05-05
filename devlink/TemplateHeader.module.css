@@ -1,0 +1,63 @@
+.template-header {
+  display: flex;
+  padding: 64px 3%;
+  align-items: center;
+
+  background-color: var(--violetBase-5c681326);
+  background-image: url("https://cdn.prod.website-files.com/68191196d561397b05c207a5/68191197d561397b05c20932_Auth%20Background%20Pattern%20Left.svg");
+  background-position: 100% 50%;
+  background-size: auto;
+  background-repeat: no-repeat;
+
+  color: hsla(225, 0.00%, 100.00%, 1.00);
+}
+
+.container-regular {
+  position: relative;
+  z-index: 1;
+
+  width: 100%;
+  max-width: 1140px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.title-wrap-small-centre {
+  display: flex;
+  max-width: 550px;
+  margin-right: auto;
+  margin-left: auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+}
+
+.margin-bottom-16 {
+  margin-bottom: 16px;
+}
+
+.paragraph-regular {
+  margin-bottom: 0px;
+  font-size: 16px;
+  line-height: 1.8;
+  letter-spacing: -0.02em;
+}
+
+.paragraph-regular.text-gray-600 {
+  color: var(--neutral600-ef72f0d2);
+}
+
+.paragraph-regular.text-color-gray-600 {
+  color: var(--neutral600-ef72f0d2);
+}
+
+.paragraph-regular.truncate {
+  overflow: hidden;
+  height: 90px;
+}
+
+.paragraph-regular.text-color-white {
+  color: hsla(231.00000000000003, 0.00%, 100.00%, 1.00);
+}
